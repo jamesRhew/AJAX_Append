@@ -11,10 +11,13 @@ for(var j=0;j<data[0].debts[0].year.length+1;j++){
    var c=data[0].debts[j].year;
   b.innerHTML=c;
    document.body.appendChild(b);
-    // console.log(data[0].debts[j].year);  
-  //document.getElementById('data')//.innerHTML=data[0].debts[j].year;
-  //console.log(data[0].debts.length);
- 
+   
+}
+
+for(var i=0;i<data[0].debts[0].data.length;i++){
+
+    
+
 }
 
 };
