@@ -10,7 +10,7 @@ for(var j=0;j<data[0].debts[0].year.length+1;j++){
    var b= document.createElement('p');
    var c=data[0].debts[j].year;
   b.innerHTML=c;
-   document.body.appendChild(b);
+   document.getElementById("inside-data").appendChild(b);
 
    
 }
@@ -20,7 +20,9 @@ for(var i=0;i<data[0].debts[0].data.length;i++){
    hold.setAttribute("id","p2");
     var yrs=data[0].debts[i].data;
     hold.innerHTML=yrs;
-    document.body.appendChild(hold);
+     document.getElementById('inside').appendChild(hold);
+   
+    
 }
 
 };
